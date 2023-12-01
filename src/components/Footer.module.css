@@ -1,0 +1,21 @@
+
+.footerlight {
+  padding:5px;
+  font-size:14px;
+  font-weight: bolder;
+  text-align: center;
+  background-color:rgb(51, 74, 250);
+  color: rgb(214, 214, 224);
+}
+
+.footerdark {
+  padding:5px;
+  font-size:14px;
+  font-weight: bolder;
+  text-align: center;
+  background-color:rgb(37,37,37);
+  color: rgb(214, 214, 224);
+}
+
+
+

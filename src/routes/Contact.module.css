@@ -1,0 +1,76 @@
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    padding:30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-arround;
+    align-items: center;
+}
+
+.contacto img {
+    margin: 10px;
+    width: 50%;
+}
+
+.contact h2{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.contact p{
+    font-size:24px;
+    font-weight: bold;
+}
+
+.contact form{
+    text-align: center;
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 50px;
+    border: solid 10px rgb(214, 214, 224) ;
+    border-style: double;
+    border-radius: 15px; 
+    width:60%;
+    justify-content: space-arround;
+    align-items: center;
+}
+
+.contact form input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: solid 1px rgb(51, 74, 250);
+    border-radius: 5px; 
+}
+
+.contact form button{
+    background-color: rgb(51, 74, 250);
+    color:rgb(214, 214, 224);
+    border-radius: 15px;
+    border: 10px solid rgb(214, 214, 224) ;
+    border-style: double ;
+    padding: 10px;
+    font-size:14px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.contact form button:hover{
+    background-color: grey;
+}
+
+.contact form p{
+    font-size:14px;
+    color: rgb(192, 2, 2);
+}
